@@ -1,0 +1,9 @@
+{
+  "name": "Test",
+  "short_name": "test",
+  "theme_color": "#a9ddd6",
+  "background_color": "#424242",
+  "display": "minimal-ui",
+  "Scope": "/",
+  "start_url": "/"
+}

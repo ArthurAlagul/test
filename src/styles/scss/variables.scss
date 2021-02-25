@@ -1,0 +1,14 @@
+$body-font-family: 'Montserrat', serif !important;
+$border-radius-root: 6px;
+$primary: #424242;
+$secondary: #a9ddd6;
+
+$typoOptions: display-4, display-3, display-2, display-1, headline, title, text-subtitle-1, text-subtitle-2, body-1, body-2, caption, text-overline;
+#app {
+  font-family: $body-font-family, sans-serif !important;
+  @each $typoOption in $typoOptions {
+    .#{$typoOption} {
+      font-family: $body-font-family, sans-serif !important;
+    }
+  }
+}
