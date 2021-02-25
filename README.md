@@ -1,4 +1,9 @@
 ## Project setup
+
+```
+set API_DEV_URI to '/' in .env.js
+```
+
 ```
 npm install
 ```
